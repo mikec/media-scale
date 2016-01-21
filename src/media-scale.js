@@ -135,10 +135,10 @@
         module.exports = MediaScale;
     } else if (typeof window !== 'undefined') {
         if(typeof angular !== 'undefined') {
-            angular.module('mikec', []).factory('MediaScale', function() {
+            angular.module('litl.mediaScale', []).factory('MediaScale', function() {
                 return MediaScale;
             });
         }
     }
-    
+
 })();
