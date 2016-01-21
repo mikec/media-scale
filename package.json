@@ -1,6 +1,6 @@
 {
   "name": "media-scale",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./src/media-scale.js",
   "devDependencies": {
     "chai": "3.4.1",
