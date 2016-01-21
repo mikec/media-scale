@@ -1,6 +1,7 @@
 {
   "name": "media-scale",
   "version": "0.1.0",
+  "main": "./src/media-scale.js",
   "devDependencies": {
     "chai": "3.4.1",
     "gulp": "3.9.0",
