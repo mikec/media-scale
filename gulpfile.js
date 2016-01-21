@@ -5,7 +5,7 @@ gulp.task('test', function() {
   return gulp.src([
       'src/**/*_test.js'
     ], {read: false})
-    .pipe(mocha({reporter: 'nyan'}));
+    .pipe(mocha({reporter: 'spec'}));
 });
 
 gulp.task('default', ['test']);
